@@ -44,7 +44,7 @@ new g_ServerIp[] = "IP:PORT"; //Set your server ip
 new szText[1200];
 
 public plugin_precache()
-	precache_generic("resource/GameMenu.res");
+	precache_generic("resource/GameMenu.res"); //Path to GameMenu.res
 
 public plugin_init()
 {
